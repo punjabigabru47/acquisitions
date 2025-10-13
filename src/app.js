@@ -4,6 +4,7 @@ import helmet from 'helmet';
 import morgan from 'morgan';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
+import securityMiddleware from '#middlewares/security.middlerware.js';
 
 const app = express();
 app.use(cors());
@@ -15,6 +16,7 @@ app.use(
     stream: { write: message => logger.info(message.trim()) },
   })
 );
+app.use(securityMiddleware); // Apply security middleware
 app.use(helmet());
 
 app.get('/', (req, res) => {
@@ -36,5 +38,7 @@ app.get('/api', (req, res) => {
 
 // Import and use routes
 import authRoutes from '#routes/auth.routes.js';
+import userRoutes from '#routes/user.routes.js';
 app.use('/api/auth', authRoutes); // Use auth routes with /api/auth sign-up, sign-in, sign-out
+app.use('/api/users', userRoutes); // Use user routes with /api/users
 export default app;
