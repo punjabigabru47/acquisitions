@@ -3,6 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "imports": {
+    "#config/*": "./src/config/*",
+    "#controllers/*": "./src/controllers/*",
+    "#models/*": "./src/models/*",
+    "#utils/*": "./src/utils/*",
+    "#routes/*": "./src/routes/*",
+    "#middlewares/*": "./src/middlewares/*",
+    "#services/*": "./src/services/*",
+    "#validations/*": "./src/validations/*"
+  },
   "scripts": {
     "dev": "node --watch src/index.js",
     "lint": "eslint .",
@@ -27,13 +37,18 @@
   "homepage": "https://github.com/punjabigabru47/acquisitions#readme",
   "dependencies": {
     "@neondatabase/serverless": "github:neondatabase/serverless",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "drizzle-kit": "^0.31.10",
     "drizzle-orm": "^0.45.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.6",
     "express": "^5.2.1",
-    "prettier": "^3.8.3"
+    "helmet": "^8.2.0",
+    "morgan": "^1.10.1",
+    "prettier": "^3.8.3",
+    "winston": "^3.19.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
