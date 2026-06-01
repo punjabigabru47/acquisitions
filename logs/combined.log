@@ -37,3 +37,10 @@
 {"level":"info","message":"::1 - - [31/May/2026:21:06:41 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 30 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-05-31T21:06:41.991Z"}
 {"level":"info","message":"::1 - - [31/May/2026:21:06:49 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-05-31T21:06:49.623Z"}
 {"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-05-31T21:08:26.787Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-01T21:46:37.159Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-01T21:47:41.806Z"}
+{"level":"info","message":"::1 - - [01/Jun/2026:21:47:46 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-01T21:47:46.519Z"}
+{"level":"info","message":"::1 - - [01/Jun/2026:21:50:08 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 91 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-01T21:50:08.969Z"}
+{"level":"info","message":"::1 - - [01/Jun/2026:21:50:35 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 91 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-01T21:50:35.333Z"}
+{"level":"info","message":"User registered successfully: sunny@gmail.com","service":"acquisitions-api","timestamp":"2026-06-01T21:50:56.505Z"}
+{"level":"info","message":"::1 - - [01/Jun/2026:21:50:56 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 113 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-01T21:50:56.506Z"}
