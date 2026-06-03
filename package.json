@@ -37,6 +37,7 @@
   "homepage": "https://github.com/punjabigabru47/acquisitions#readme",
   "dependencies": {
     "@neondatabase/serverless": "github:neondatabase/serverless",
+    "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",

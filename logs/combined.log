@@ -44,3 +44,41 @@
 {"level":"info","message":"::1 - - [01/Jun/2026:21:50:35 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 91 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-01T21:50:35.333Z"}
 {"level":"info","message":"User registered successfully: sunny@gmail.com","service":"acquisitions-api","timestamp":"2026-06-01T21:50:56.505Z"}
 {"level":"info","message":"::1 - - [01/Jun/2026:21:50:56 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 113 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-01T21:50:56.506Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-02T21:49:36.507Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-02T21:50:46.485Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-02T22:02:39.516Z"}
+{"level":"info","message":"::1 - - [02/Jun/2026:22:09:34 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-02T22:09:34.907Z"}
+{"level":"error","message":"Error creating user: TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))","service":"acquisitions-api","timestamp":"2026-06-02T22:10:05.482Z"}
+{"level":"error","message":"Error signing up object is not iterable (cannot read property Symbol(Symbol.iterator))","service":"acquisitions-api","stack":"TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))\n    at createUser (file:///Users/sunny/dev-ops/portfolio-Devop-project/acquisitions/src/services/auth.service.js:28:23)\n    at async signUp (file:///Users/sunny/dev-ops/portfolio-Devop-project/acquisitions/src/controllers/auth.controller.js:22:18)","timestamp":"2026-06-02T22:10:05.482Z"}
+{"level":"info","message":"::1 - - [02/Jun/2026:22:10:05 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 481 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-02T22:10:05.483Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-02T22:10:30.596Z"}
+{"level":"error","message":"Error creating user: TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))","service":"acquisitions-api","timestamp":"2026-06-02T22:10:36.750Z"}
+{"level":"error","message":"Error signing up object is not iterable (cannot read property Symbol(Symbol.iterator))","service":"acquisitions-api","stack":"TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))\n    at createUser (file:///Users/sunny/dev-ops/portfolio-Devop-project/acquisitions/src/services/auth.service.js:28:23)\n    at async signUp (file:///Users/sunny/dev-ops/portfolio-Devop-project/acquisitions/src/controllers/auth.controller.js:22:18)","timestamp":"2026-06-02T22:10:36.750Z"}
+{"level":"info","message":"::1 - - [02/Jun/2026:22:10:36 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 481 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-02T22:10:36.751Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-02T22:13:02.864Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-02T22:13:06.920Z"}
+{"level":"info","message":"User test-1780438396@example.com created successfully","service":"acquisitions-api","timestamp":"2026-06-02T22:13:17.139Z"}
+{"level":"info","message":"User registered successfully: test-1780438396@example.com","service":"acquisitions-api","timestamp":"2026-06-02T22:13:17.141Z"}
+{"level":"info","message":"::1 - - [02/Jun/2026:22:13:17 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 129 \"-\" \"curl/8.7.1\"","service":"acquisitions-api","timestamp":"2026-06-02T22:13:17.142Z"}
+{"level":"info","message":"User admin@jsmastery.pro created successfully","service":"acquisitions-api","timestamp":"2026-06-02T22:13:40.105Z"}
+{"level":"info","message":"User registered successfully: admin@jsmastery.pro","service":"acquisitions-api","timestamp":"2026-06-02T22:13:40.106Z"}
+{"level":"info","message":"::1 - - [02/Jun/2026:22:13:40 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 118 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-02T22:13:40.106Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-03T21:56:19.452Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-03T21:56:26.099Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-03T21:56:29.056Z"}
+{"level":"info","message":"User login-1780523800@example.com created successfully","service":"acquisitions-api","timestamp":"2026-06-03T21:56:41.148Z"}
+{"level":"info","message":"User registered successfully: login-1780523800@example.com","service":"acquisitions-api","timestamp":"2026-06-03T21:56:41.150Z"}
+{"level":"info","message":"::1 - - [03/Jun/2026:21:56:41 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 131 \"-\" \"curl/8.7.1\"","service":"acquisitions-api","timestamp":"2026-06-03T21:56:41.152Z"}
+{"level":"info","message":"User login-1780523800@example.com authenticated successfully","service":"acquisitions-api","timestamp":"2026-06-03T21:56:41.232Z"}
+{"level":"info","message":"User signed in successfully: login-1780523800@example.com","service":"acquisitions-api","timestamp":"2026-06-03T21:56:41.233Z"}
+{"level":"info","message":"::1 - - [03/Jun/2026:21:56:41 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 130 \"-\" \"curl/8.7.1\"","service":"acquisitions-api","timestamp":"2026-06-03T21:56:41.233Z"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api","timestamp":"2026-06-03T21:56:41.240Z"}
+{"level":"info","message":"::1 - - [03/Jun/2026:21:56:41 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"curl/8.7.1\"","service":"acquisitions-api","timestamp":"2026-06-03T21:56:41.240Z"}
+{"level":"error","message":"Error authenticating user: Error: Invalid credentials","service":"acquisitions-api","timestamp":"2026-06-03T21:56:45.491Z"}
+{"level":"error","message":"Error signing in Invalid credentials","service":"acquisitions-api","stack":"Error: Invalid credentials\n    at authenticateUser (file:///Users/sunny/dev-ops/portfolio-Devop-project/acquisitions/src/services/auth.service.js:69:22)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async signIn (file:///Users/sunny/dev-ops/portfolio-Devop-project/acquisitions/src/controllers/auth.controller.js:72:18)","timestamp":"2026-06-03T21:56:45.492Z"}
+{"level":"info","message":"::1 - - [03/Jun/2026:21:56:45 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 401 39 \"-\" \"curl/8.7.1\"","service":"acquisitions-api","timestamp":"2026-06-03T21:56:45.492Z"}
+{"level":"info","message":"User admin@jsmastery.pro authenticated successfully","service":"acquisitions-api","timestamp":"2026-06-03T22:03:39.252Z"}
+{"level":"info","message":"User signed in successfully: admin@jsmastery.pro","service":"acquisitions-api","timestamp":"2026-06-03T22:03:39.253Z"}
+{"level":"info","message":"::1 - - [03/Jun/2026:22:03:39 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 117 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-03T22:03:39.254Z"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api","timestamp":"2026-06-03T22:04:31.983Z"}
+{"level":"info","message":"::1 - - [03/Jun/2026:22:04:31 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-03T22:04:31.984Z"}
