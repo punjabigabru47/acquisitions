@@ -1,4 +1,5 @@
 import logger from '#config/logger.js';
+import securityMiddleware from '#middlewares/security.middleware.js';
 import authRoutes from '#routes/auth.routes.js';
 import cookieParser from 'cookie-parser';
 import cors from 'cors';
@@ -29,6 +30,9 @@ app.use(cors());
 
 //cookie parser for parsing cookies.
 app.use(cookieParser());
+
+// security middleware for rate limiting and bot detection.
+app.use(securityMiddleware);
 
 app.get('/', (req, res) => {
   logger.info('Hello acquisitions');
