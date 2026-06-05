@@ -1,0 +1,25 @@
+services:
+  neon-local:
+    image: neondatabase/neon_local:latest
+    ports:
+      - '5432:5432'
+    env_file:
+      - .env.development
+    environment:
+      DELETE_BRANCH: 'true'
+
+  app:
+    build:
+      context: .
+      target: development
+    ports:
+      - '3000:3000'
+    env_file:
+      - .env.development
+
+    depends_on:
+      - neon-local
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: npm run dev

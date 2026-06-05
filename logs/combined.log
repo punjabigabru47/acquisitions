@@ -102,3 +102,19 @@
 {"level":"info","message":"::1 - - [04/Jun/2026:17:41:19 +0000] \"GET /health HTTP/1.1\" 403 97 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-04T17:41:19.901Z"}
 {"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","timestamp":"2026-06-04T17:41:20.065Z","userAgent":"HTTPie"}
 {"level":"info","message":"::1 - - [04/Jun/2026:17:41:20 +0000] \"GET /health HTTP/1.1\" 403 97 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-04T17:41:20.066Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-05T15:30:54.762Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-05T15:34:37.284Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-05T16:16:47.600Z"}
+{"level":"info","message":"Hello acquisitions","service":"acquisitions-api","timestamp":"2026-06-05T16:21:09.378Z"}
+{"level":"info","message":"::1 - - [05/Jun/2026:16:21:09 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-05T16:21:09.382Z"}
+{"level":"info","message":"Hello acquisitions","service":"acquisitions-api","timestamp":"2026-06-05T16:21:12.180Z"}
+{"level":"info","message":"::1 - - [05/Jun/2026:16:21:12 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-05T16:21:12.181Z"}
+{"level":"info","message":"::1 - - [05/Jun/2026:16:21:49 +0000] \"GET /api HTTP/1.1\" 200 45 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-05T16:21:49.527Z"}
+{"level":"info","message":"::1 - - [05/Jun/2026:16:22:14 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-05T16:22:14.115Z"}
+{"level":"info","message":"::1 - - [05/Jun/2026:18:27:45 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-05T18:27:45.244Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-05T21:40:41.798Z"}
+{"level":"info","message":"::1 - - [05/Jun/2026:21:42:03 +0000] \"POST /auth/sign-up HTTP/1.1\" 404 152 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-05T21:42:03.189Z"}
+{"level":"info","message":"::1 - - [05/Jun/2026:21:42:19 +0000] \"POST /auth/sign-up HTTP/1.1\" 404 152 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-05T21:42:19.106Z"}
+{"level":"info","message":"User kamal@gmail.com created successfully","service":"acquisitions-api","timestamp":"2026-06-05T21:42:50.670Z"}
+{"level":"info","message":"User registered successfully: kamal@gmail.com","service":"acquisitions-api","timestamp":"2026-06-05T21:42:50.672Z"}
+{"level":"info","message":"::1 - - [05/Jun/2026:21:42:50 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 113 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-05T21:42:50.673Z"}
