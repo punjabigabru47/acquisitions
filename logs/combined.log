@@ -250,3 +250,16 @@
 {"level":"info","message":"Checking admin access for user role: admin","service":"acquisitions-api","timestamp":"2026-06-07T20:27:07.131Z"}
 {"level":"info","message":"Deleting user...","service":"acquisitions-api","timestamp":"2026-06-07T20:27:07.131Z"}
 {"level":"info","message":"::1 - - [07/Jun/2026:20:27:07 +0000] \"DELETE /api/users/1 HTTP/1.1\" 200 141 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-07T20:27:07.231Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-07T20:31:42.623Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-07T20:42:52.102Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-07T20:44:22.666Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-07T20:44:50.223Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/Jun/2026:21:11:19 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-07T21:11:19.148Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/Jun/2026:21:11:19 +0000] \"GET /api HTTP/1.1\" 200 45 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-07T21:11:19.156Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/Jun/2026:21:11:19 +0000] \"GET /nonexistent-route HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-07T21:11:19.164Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/Jun/2026:21:11:30 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-07T21:11:30.257Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/Jun/2026:21:11:30 +0000] \"GET /api HTTP/1.1\" 200 45 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-07T21:11:30.266Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/Jun/2026:21:11:30 +0000] \"GET /nonexistent-route HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-07T21:11:30.271Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/Jun/2026:21:11:53 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-07T21:11:53.948Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/Jun/2026:21:11:53 +0000] \"GET /api HTTP/1.1\" 200 45 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-07T21:11:53.957Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/Jun/2026:21:11:53 +0000] \"GET /nonexistent-route HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-07T21:11:53.963Z"}

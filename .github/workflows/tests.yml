@@ -1,0 +1,79 @@
+name: Tests
+
+on:
+  push:
+    branches:
+      - main
+      - staging
+  pull_request:
+    branches:
+      - main
+      - staging
+
+jobs:
+  tests:
+    name: Jest Tests
+    runs-on: ubuntu-latest
+
+    env:
+      NODE_ENV: test
+      NODE_OPTIONS: --experimental-vm-modules
+      DATABASE_URL: ${{ secrets.TEST_DATABASE_URL || 'postgresql://user:password@localhost:5432/acquisitions_test' }}
+      JWT_SECRET: ${{ secrets.JWT_SECRET || 'test-jwt-secret' }}
+      ARCJET_KEY: ${{ secrets.ARCJET_KEY || 'test-arcjet-key' }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        id: test
+        continue-on-error: true
+        run: npm test
+
+      - name: Annotate test failure
+        if: steps.test.outcome == 'failure'
+        run: |
+          echo "::error title=Tests failed::Run npm test locally and review the Jest output above."
+
+      - name: Upload coverage report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: coverage/
+          retention-days: 30
+          if-no-files-found: warn
+
+      - name: Add test summary
+        if: always()
+        run: |
+          {
+            echo "## Test Results"
+            echo ""
+            if [ "${{ steps.test.outcome }}" = "success" ]; then
+              echo "- Status: passed"
+            else
+              echo "- Status: failed"
+              echo "- Suggested fix: run \`npm test\` locally and inspect failing Jest assertions."
+            fi
+            echo "- Coverage artifact: \`coverage-report\`"
+            if [ -f coverage/lcov.info ]; then
+              echo "- Coverage file generated: \`coverage/lcov.info\`"
+            else
+              echo "- Coverage file generated: no"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Fail if tests failed
+        if: steps.test.outcome == 'failure'
+        run: exit 1
