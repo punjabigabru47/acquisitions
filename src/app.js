@@ -1,6 +1,7 @@
 import logger from '#config/logger.js';
 import securityMiddleware from '#middlewares/security.middleware.js';
 import authRoutes from '#routes/auth.routes.js';
+import usersRoutes from '#routes/users.routes.js';
 import cookieParser from 'cookie-parser';
 import cors from 'cors';
 import express from 'express';
@@ -41,6 +42,9 @@ app.get('/', (req, res) => {
 
 // auth routes..
 app.use('/api/auth', authRoutes);
+
+// users routes..
+app.use('/api/users', usersRoutes);
 
 // health check route.
 app.get('/health', (req, res) => {

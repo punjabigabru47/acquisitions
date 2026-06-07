@@ -118,3 +118,135 @@
 {"level":"info","message":"User kamal@gmail.com created successfully","service":"acquisitions-api","timestamp":"2026-06-05T21:42:50.670Z"}
 {"level":"info","message":"User registered successfully: kamal@gmail.com","service":"acquisitions-api","timestamp":"2026-06-05T21:42:50.672Z"}
 {"level":"info","message":"::1 - - [05/Jun/2026:21:42:50 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 113 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-05T21:42:50.673Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-05T22:02:10.107Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-06T22:37:11.561Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-06T22:40:14.425Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-06T22:43:04.702Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-06T22:43:14.492Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-06T22:43:19.686Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/api/auth/sign-up","service":"acquisitions-api","timestamp":"2026-06-06T22:43:31.841Z","userAgent":"curl/8.7.1"}
+{"level":"info","message":"::1 - - [06/Jun/2026:22:43:31 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 403 68 \"-\" \"curl/8.7.1\"","service":"acquisitions-api","timestamp":"2026-06-06T22:43:31.843Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/api/auth/sign-up","service":"acquisitions-api","timestamp":"2026-06-06T22:43:43.443Z","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36"}
+{"level":"info","message":"::1 - - [06/Jun/2026:22:43:43 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-06T22:43:43.443Z"}
+{"level":"info","message":"Getting user...","service":"acquisitions-api","timestamp":"2026-06-06T22:44:00.902Z"}
+{"level":"info","message":"::1 - - [06/Jun/2026:22:44:01 +0000] \"GET /api/users/1 HTTP/1.1\" 200 219 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-06T22:44:01.644Z"}
+{"level":"info","message":"User users-crud-1780785850@example.com created successfully","service":"acquisitions-api","timestamp":"2026-06-06T22:44:10.825Z"}
+{"level":"info","message":"User registered successfully: users-crud-1780785850@example.com","service":"acquisitions-api","timestamp":"2026-06-06T22:44:10.828Z"}
+{"level":"info","message":"::1 - - [06/Jun/2026:22:44:10 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 136 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-06T22:44:10.828Z"}
+{"level":"info","message":"Getting user...","service":"acquisitions-api","timestamp":"2026-06-06T22:44:10.913Z"}
+{"level":"info","message":"::1 - - [06/Jun/2026:22:44:10 +0000] \"GET /api/users/5 HTTP/1.1\" 200 226 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-06T22:44:10.935Z"}
+{"level":"info","message":"Updating user...","service":"acquisitions-api","timestamp":"2026-06-06T22:44:10.994Z"}
+{"level":"info","message":"::1 - - [06/Jun/2026:22:44:11 +0000] \"PUT /api/users/5 HTTP/1.1\" 200 234 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-06T22:44:11.021Z"}
+{"level":"info","message":"Deleting user...","service":"acquisitions-api","timestamp":"2026-06-06T22:44:11.079Z"}
+{"level":"info","message":"::1 - - [06/Jun/2026:22:44:11 +0000] \"DELETE /api/users/5 HTTP/1.1\" 200 156 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-06T22:44:11.103Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/users/5","service":"acquisitions-api","timestamp":"2026-06-06T22:44:11.160Z","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [06/Jun/2026:22:44:11 +0000] \"GET /api/users/5 HTTP/1.1\" 403 97 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-06T22:44:11.161Z"}
+{"level":"info","message":"Getting user...","service":"acquisitions-api","timestamp":"2026-06-06T22:44:18.082Z"}
+{"level":"info","message":"::1 - - [06/Jun/2026:22:44:18 +0000] \"GET /api/users/5 HTTP/1.1\" 404 44 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-06T22:44:18.167Z"}
+{"level":"info","message":"Getting users...","service":"acquisitions-api","timestamp":"2026-06-06T22:47:24.029Z"}
+{"level":"info","message":"::1 - - [06/Jun/2026:22:47:24 +0000] \"GET /api/users HTTP/1.1\" 200 624 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-06T22:47:24.110Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-07T14:19:55.515Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:20:02 +0000] \"GET /api/users HTTP/1.1\" 401 62 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T14:20:02.089Z"}
+{"level":"info","message":"User login-1780523800@example.com authenticated successfully","service":"acquisitions-api","timestamp":"2026-06-07T14:20:07.716Z"}
+{"level":"info","message":"User signed in successfully: login-1780523800@example.com","service":"acquisitions-api","timestamp":"2026-06-07T14:20:07.718Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:20:07 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 130 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T14:20:07.718Z"}
+{"level":"info","message":"Getting users...","service":"acquisitions-api","timestamp":"2026-06-07T14:20:07.777Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:20:07 +0000] \"GET /api/users HTTP/1.1\" 200 624 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T14:20:07.801Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:23:33 +0000] \"GET /api/users/3 HTTP/1.1\" 401 62 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-07T14:23:33.612Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:26:21 +0000] \"POST /auth/sign-in HTTP/1.1\" 404 152 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-07T14:26:21.009Z"}
+{"level":"info","message":"User kamal@gmail.com authenticated successfully","service":"acquisitions-api","timestamp":"2026-06-07T14:27:08.209Z"}
+{"level":"info","message":"User signed in successfully: kamal@gmail.com","service":"acquisitions-api","timestamp":"2026-06-07T14:27:08.212Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:27:08 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 112 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-07T14:27:08.212Z"}
+{"level":"info","message":"Getting user...","service":"acquisitions-api","timestamp":"2026-06-07T14:28:54.871Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:28:54 +0000] \"GET /api/users/4 HTTP/1.1\" 200 203 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-07T14:28:54.967Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-07T14:32:54.489Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-07T14:35:43.150Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-07T14:35:46.675Z"}
+{"level":"info","message":"User normal-role-1780842968@example.com created successfully","service":"acquisitions-api","timestamp":"2026-06-07T14:36:09.855Z"}
+{"level":"info","message":"User registered successfully: normal-role-1780842968@example.com","service":"acquisitions-api","timestamp":"2026-06-07T14:36:09.856Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:36:09 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 138 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T14:36:09.859Z"}
+{"level":"info","message":"User admin-role-1780842968@example.com created successfully","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.045Z"}
+{"level":"info","message":"User registered successfully: admin-role-1780842968@example.com","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.046Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:36:10 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 137 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.046Z"}
+{"level":"info","message":"User victim-role-1780842968@example.com created successfully","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.221Z"}
+{"level":"info","message":"User registered successfully: victim-role-1780842968@example.com","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.222Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:36:10 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 138 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.222Z"}
+{"level":"info","message":"User normal-role-1780842968@example.com authenticated successfully","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.369Z"}
+{"level":"info","message":"User signed in successfully: normal-role-1780842968@example.com","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.370Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:36:10 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 137 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.370Z"}
+{"level":"info","message":"User admin-role-1780842968@example.com authenticated successfully","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.506Z"}
+{"level":"info","message":"User signed in successfully: admin-role-1780842968@example.com","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.506Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:36:10 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 136 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.506Z"}
+{"level":"info","message":"Checking admin access for user role: user","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.560Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:36:10 +0000] \"GET /api/users HTTP/1.1\" 403 80 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.560Z"}
+{"level":"info","message":"Getting user...","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.617Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:36:10 +0000] \"GET /api/users/6 HTTP/1.1\" 200 228 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.639Z"}
+{"level":"info","message":"Checking admin access for user role: user","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.692Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:36:10 +0000] \"DELETE /api/users/8 HTTP/1.1\" 403 80 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.692Z"}
+{"level":"info","message":"Checking admin access for user role: admin","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.747Z"}
+{"level":"info","message":"Getting users...","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.747Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:36:10 +0000] \"GET /api/users HTTP/1.1\" 200 1081 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.768Z"}
+{"level":"info","message":"Checking admin access for user role: admin","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.825Z"}
+{"level":"info","message":"Deleting user...","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.825Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:36:10 +0000] \"DELETE /api/users/8 HTTP/1.1\" 200 150 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.850Z"}
+{"level":"info","message":"Checking admin access for user role: admin","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.908Z"}
+{"level":"info","message":"Deleting user...","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.908Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:36:10 +0000] \"DELETE /api/users/7 HTTP/1.1\" 200 149 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.929Z"}
+{"level":"info","message":"Checking admin access for user role: admin","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.984Z"}
+{"level":"info","message":"Deleting user...","service":"acquisitions-api","timestamp":"2026-06-07T14:36:10.984Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:36:11 +0000] \"DELETE /api/users/6 HTTP/1.1\" 200 150 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T14:36:11.007Z"}
+{"level":"info","message":"Checking admin access for user role: user","service":"acquisitions-api","timestamp":"2026-06-07T14:39:32.981Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:39:32 +0000] \"DELETE /api/users/1 HTTP/1.1\" 403 80 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-07T14:39:32.983Z"}
+{"level":"info","message":"Checking admin access for user role: user","service":"acquisitions-api","timestamp":"2026-06-07T14:40:45.655Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:40:45 +0000] \"GET /api/users HTTP/1.1\" 403 80 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-07T14:40:45.655Z"}
+{"level":"info","message":"Checking admin access for user role: user","service":"acquisitions-api","timestamp":"2026-06-07T14:40:48.958Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:40:48 +0000] \"GET /api/users HTTP/1.1\" 403 80 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-07T14:40:48.959Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-07T14:41:04.438Z"}
+{"level":"info","message":"Getting users...","service":"acquisitions-api","timestamp":"2026-06-07T14:41:07.884Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:14:41:07 +0000] \"GET /api/users HTTP/1.1\" 200 624 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-07T14:41:07.992Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-07T14:42:18.271Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-07T20:12:43.794Z"}
+{"level":"error","message":"Error authenticating user: Error: Invalid credentials","service":"acquisitions-api","timestamp":"2026-06-07T20:12:58.212Z"}
+{"level":"error","message":"Error signing in Invalid credentials","service":"acquisitions-api","stack":"Error: Invalid credentials\n    at authenticateUser (file:///Users/sunny/dev-ops/portfolio-Devop-project/acquisitions/src/services/auth.service.js:73:33)\n    at async signIn (file:///Users/sunny/dev-ops/portfolio-Devop-project/acquisitions/src/controllers/auth.controller.js:72:18)","timestamp":"2026-06-07T20:12:58.212Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:12:58 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 401 39 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T20:12:58.214Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:12:58 +0000] \"GET /api/users/abc HTTP/1.1\" 401 62 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T20:12:58.270Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:12:58 +0000] \"PUT /api/users/1 HTTP/1.1\" 401 62 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T20:12:58.326Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:12:58 +0000] \"PUT /api/users/1 HTTP/1.1\" 401 62 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T20:12:58.384Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:12:58 +0000] \"PUT /api/users/1 HTTP/1.1\" 401 62 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T20:12:58.441Z"}
+{"level":"info","message":"User validation-admin-1780863189@example.com created successfully","service":"acquisitions-api","timestamp":"2026-06-07T20:13:09.328Z"}
+{"level":"info","message":"User registered successfully: validation-admin-1780863189@example.com","service":"acquisitions-api","timestamp":"2026-06-07T20:13:09.329Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:13:09 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 149 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T20:13:09.330Z"}
+{"level":"info","message":"Getting user...","service":"acquisitions-api","timestamp":"2026-06-07T20:13:09.412Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:13:09 +0000] \"GET /api/users/abc HTTP/1.1\" 400 102 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T20:13:09.413Z"}
+{"level":"info","message":"Updating user...","service":"acquisitions-api","timestamp":"2026-06-07T20:13:09.477Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:13:09 +0000] \"PUT /api/users/9 HTTP/1.1\" 400 88 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T20:13:09.478Z"}
+{"level":"info","message":"Updating user...","service":"acquisitions-api","timestamp":"2026-06-07T20:13:09.536Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:13:09 +0000] \"PUT /api/users/9 HTTP/1.1\" 400 108 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T20:13:09.536Z"}
+{"level":"info","message":"Updating user...","service":"acquisitions-api","timestamp":"2026-06-07T20:13:09.594Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:13:09 +0000] \"PUT /api/users/9 HTTP/1.1\" 200 247 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T20:13:09.628Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/users/9","service":"acquisitions-api","timestamp":"2026-06-07T20:13:09.686Z","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:13:09 +0000] \"DELETE /api/users/9 HTTP/1.1\" 403 97 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T20:13:09.687Z"}
+{"level":"info","message":"Checking admin access for user role: admin","service":"acquisitions-api","timestamp":"2026-06-07T20:13:15.191Z"}
+{"level":"info","message":"Deleting user...","service":"acquisitions-api","timestamp":"2026-06-07T20:13:15.191Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:13:15 +0000] \"DELETE /api/users/9 HTTP/1.1\" 200 169 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-07T20:13:15.277Z"}
+{"level":"info","message":"Getting user...","service":"acquisitions-api","timestamp":"2026-06-07T20:15:17.273Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:15:17 +0000] \"GET /api/users/2 HTTP/1.1\" 200 208 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-07T20:15:17.349Z"}
+{"level":"info","message":"Getting user...","service":"acquisitions-api","timestamp":"2026-06-07T20:15:54.052Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:15:54 +0000] \"GET /api/users/3 HTTP/1.1\" 200 221 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-07T20:15:54.154Z"}
+{"level":"info","message":"Getting user...","service":"acquisitions-api","timestamp":"2026-06-07T20:16:03.836Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:16:03 +0000] \"GET /api/users/4 HTTP/1.1\" 200 203 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-07T20:16:03.910Z"}
+{"level":"info","message":"Getting user...","service":"acquisitions-api","timestamp":"2026-06-07T20:16:12.540Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:16:12 +0000] \"GET /api/users/1 HTTP/1.1\" 200 219 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-07T20:16:12.637Z"}
+{"level":"info","message":"Getting user...","service":"acquisitions-api","timestamp":"2026-06-07T20:16:17.151Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:16:17 +0000] \"GET /api/users/2 HTTP/1.1\" 200 208 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-07T20:16:17.238Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:16:26 +0000] \"GET /api/users/2 HTTP/1.1\" 401 62 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-07T20:16:26.938Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:17:25 +0000] \"DELETE /api/users/2 HTTP/1.1\" 401 62 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-07T20:17:25.868Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:17:28 +0000] \"DELETE /api/users/2 HTTP/1.1\" 401 62 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-07T20:17:28.675Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:17:58 +0000] \"DELETE /api/users/3 HTTP/1.1\" 401 62 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-07T20:17:58.376Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:26:03 +0000] \"POST /auth/sign-up HTTP/1.1\" 404 152 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-07T20:26:03.253Z"}
+{"level":"info","message":"User admin@gmail.com created successfully","service":"acquisitions-api","timestamp":"2026-06-07T20:26:12.477Z"}
+{"level":"info","message":"User registered successfully: admin@gmail.com","service":"acquisitions-api","timestamp":"2026-06-07T20:26:12.478Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:26:12 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 124 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-07T20:26:12.478Z"}
+{"level":"info","message":"Checking admin access for user role: admin","service":"acquisitions-api","timestamp":"2026-06-07T20:27:07.131Z"}
+{"level":"info","message":"Deleting user...","service":"acquisitions-api","timestamp":"2026-06-07T20:27:07.131Z"}
+{"level":"info","message":"::1 - - [07/Jun/2026:20:27:07 +0000] \"DELETE /api/users/1 HTTP/1.1\" 200 141 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-06-07T20:27:07.231Z"}
