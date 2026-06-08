@@ -65,8 +65,7 @@ app.get('/api', (req, res) => {
 // cheking route if they exist..
 app.use((req, res) => {
   res.status(404).json({
-    success: false,
-    message: 'Route not found',
+    error: 'Route not found',
   });
 });
 
