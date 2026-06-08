@@ -39,12 +39,15 @@ jobs:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           REPOSITORY_NAME: ${{ github.event.repository.name }}
         run: |
-          if [ -z "$DOCKER_USERNAME" ]; then
+          docker_username=$(printf '%s' "$DOCKER_USERNAME" | tr -d '[:space:]')
+          repository_name=$(printf '%s' "$REPOSITORY_NAME" | tr -d '[:space:]')
+
+          if [ -z "$docker_username" ]; then
             echo "::error title=Missing Docker Hub username::DOCKER_USERNAME is empty, so the image name would be invalid."
             exit 1
           fi
 
-          image_name=$(printf '%s/%s' "$DOCKER_USERNAME" "$REPOSITORY_NAME" | tr '[:upper:]' '[:lower:]')
+          image_name=$(printf '%s/%s' "$docker_username" "$repository_name" | tr '[:upper:]' '[:lower:]')
 
           if ! printf '%s' "$image_name" | grep -Eq '^[a-z0-9][a-z0-9._-]*/[a-z0-9][a-z0-9._-]*$'; then
             echo "::error title=Invalid Docker image name::Computed image name '$image_name' is invalid. Check DOCKER_USERNAME and repository name."
