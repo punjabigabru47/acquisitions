@@ -266,3 +266,5 @@
 {"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-08T20:32:14.980Z"}
 {"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-08T20:38:39.842Z"}
 {"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-08T20:41:49.285Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-08T21:07:12.968Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-08T21:07:21.662Z"}
