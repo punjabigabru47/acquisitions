@@ -10,6 +10,9 @@ on:
       - main
       - staging
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   lint-and-format:
     name: ESLint and Prettier
@@ -50,4 +53,7 @@ jobs:
 
       - name: Fail if lint or format failed
         if: steps.eslint.outcome == 'failure' || steps.prettier.outcome == 'failure'
-        run: exit 1
+        run: |
+          echo "ESLint outcome: ${{ steps.eslint.outcome }}"
+          echo "Prettier outcome: ${{ steps.prettier.outcome }}"
+          exit 1

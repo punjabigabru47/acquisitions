@@ -17,10 +17,7 @@ const envSchema = z
       .enum(['true', 'false'])
       .default('false')
       .transform(value => value === 'true'),
-    NEON_FETCH_ENDPOINT: z
-      .string()
-      .url()
-      .default('http://neon-local:5432/sql'),
+    NEON_FETCH_ENDPOINT: z.string().url().default('http://neon-local:5432/sql'),
   })
   .superRefine((env, ctx) => {
     if (env.NODE_ENV === 'production' && !env.ARCJET_KEY) {

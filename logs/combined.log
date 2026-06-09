@@ -282,3 +282,5 @@
 {"level":"info","message":"Hello acquisitions","service":"acquisitions-api","timestamp":"2026-06-09T17:08:14.675Z"}
 {"level":"info","message":"::1 - - [09/Jun/2026:17:08:14 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-09T17:08:14.677Z"}
 {"level":"info","message":"::1 - - [09/Jun/2026:17:08:23 +0000] \"GET /api HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-09T17:08:23.156Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-09T17:14:13.938Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-09T17:19:50.165Z"}
