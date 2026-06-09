@@ -1,10 +1,10 @@
-import 'dotenv/config';
+import env from './src/config/env.js';
 
 export default {
   schema: './src/models/*.js',
   out: './drizzle',
   dialect: 'postgresql',
   dbCredentials: {
-    url: process.env.DATABASE_URL,
+    url: env.DATABASE_URL,
   },
 };

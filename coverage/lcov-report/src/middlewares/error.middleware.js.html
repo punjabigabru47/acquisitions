@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for src/utils/cookies.js</title>
+    <title>Code coverage report for src/middlewares/error.middleware.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../prettify.css" />
     <link rel="stylesheet" href="../../base.css" />
@@ -19,34 +19,34 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">src/utils</a> cookies.js</h1>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">src/middlewares</a> error.middleware.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">63.63% </span>
+                <span class="strong">38.7% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>14/22</span>
+                <span class='fraction'>12/31</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/0</span>
+                <span class='fraction'>1/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">50% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/4</span>
+                <span class='fraction'>1/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">63.63% </span>
+                <span class="strong">38.7% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>14/22</span>
+                <span class='fraction'>12/31</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line medium'></div>
+    <div class='status-line low'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -85,7 +85,24 @@
 <a name='L20'></a><a href='#L20'>20</a>
 <a name='L21'></a><a href='#L21'>21</a>
 <a name='L22'></a><a href='#L22'>22</a>
-<a name='L23'></a><a href='#L23'>23</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -93,42 +110,52 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import env from '#config/env.js';
+import logger from '#config/logger.js';
 &nbsp;
-export const cookies = {
-  getOptions: <span class="fstat-no" title="function not covered" >() =&gt; ({</span>
-<span class="cstat-no" title="statement not covered" >    httpOnly: true,</span>
-<span class="cstat-no" title="statement not covered" >    secure: env.NODE_ENV === 'production',</span>
-<span class="cstat-no" title="statement not covered" >    maxAge: 15 * 60 * 1000,</span>
-<span class="cstat-no" title="statement not covered" >    sameSite: 'strict',</span>
-  }),
-&nbsp;
-  set: <span class="fstat-no" title="function not covered" >(res, name, value, options = {}) =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >    res.cookie(name, value, { ...cookies.getOptions(), ...options });</span>
-  },
-&nbsp;
-  clear: <span class="fstat-no" title="function not covered" >(res, name, options = {}) =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >    res.clearCookie(name, { ...cookies.getOptions(), ...options });</span>
-  },
-&nbsp;
-  get: <span class="fstat-no" title="function not covered" >(req, name) =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >    return req.cookies[name];</span>
-<span class="cstat-no" title="statement not covered" >  },</span>
+export const notFoundHandler = (req, res) =&gt; {
+  res.status(404).json({
+    success: false,
+    error: 'Route not found',
+    message: `Cannot ${req.method} ${req.originalUrl}`,
+  });
 };
+&nbsp;
+export const errorHandler = <span class="fstat-no" title="function not covered" >(error, req, res, _next) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >  const statusCode = error.statusCode || error.status || 500;</span>
+<span class="cstat-no" title="statement not covered" >  const isProduction = env.NODE_ENV === 'production';</span>
+<span class="cstat-no" title="statement not covered" ></span>
+<span class="cstat-no" title="statement not covered" >  logger.error('Unhandled application error', {</span>
+<span class="cstat-no" title="statement not covered" >    message: error.message,</span>
+<span class="cstat-no" title="statement not covered" >    method: req.method,</span>
+<span class="cstat-no" title="statement not covered" >    path: req.originalUrl,</span>
+<span class="cstat-no" title="statement not covered" >    stack: error.stack,</span>
+<span class="cstat-no" title="statement not covered" >  });</span>
+<span class="cstat-no" title="statement not covered" ></span>
+<span class="cstat-no" title="statement not covered" >  res.status(statusCode).json({</span>
+<span class="cstat-no" title="statement not covered" >    success: false,</span>
+<span class="cstat-no" title="statement not covered" >    message:</span>
+<span class="cstat-no" title="statement not covered" >      statusCode === 500 &amp;&amp; isProduction</span>
+<span class="cstat-no" title="statement not covered" >        ? 'Internal server error'</span>
+<span class="cstat-no" title="statement not covered" >        : error.message || 'Internal server error',</span>
+<span class="cstat-no" title="statement not covered" >    ...(isProduction ? {} : { stack: error.stack }),</span>
+<span class="cstat-no" title="statement not covered" >  });</span>
+<span class="cstat-no" title="statement not covered" >};</span>
 &nbsp;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->

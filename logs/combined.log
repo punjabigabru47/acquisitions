@@ -268,3 +268,17 @@
 {"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-08T20:41:49.285Z"}
 {"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-08T21:07:12.968Z"}
 {"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-08T21:07:21.662Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-09T16:44:47.126Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Jun/2026:16:44:52 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-09T16:44:52.202Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Jun/2026:16:44:52 +0000] \"GET /api HTTP/1.1\" 200 45 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-09T16:44:52.211Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Jun/2026:16:44:52 +0000] \"GET /nonexistent-route HTTP/1.1\" 404 85 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-09T16:44:52.216Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Jun/2026:17:03:04 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-09T17:03:04.614Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Jun/2026:17:03:04 +0000] \"GET /api HTTP/1.1\" 200 45 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-09T17:03:04.622Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Jun/2026:17:03:04 +0000] \"GET /nonexistent-route HTTP/1.1\" 404 85 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-09T17:03:04.627Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Jun/2026:17:03:23 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-09T17:03:23.177Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Jun/2026:17:03:23 +0000] \"GET /api HTTP/1.1\" 200 45 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-09T17:03:23.185Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [09/Jun/2026:17:03:23 +0000] \"GET /nonexistent-route HTTP/1.1\" 404 85 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-09T17:03:23.189Z"}
+{"level":"info","message":"Listening on http://localhost:3000","service":"acquisitions-api","timestamp":"2026-06-09T17:07:10.831Z"}
+{"level":"info","message":"Hello acquisitions","service":"acquisitions-api","timestamp":"2026-06-09T17:08:14.675Z"}
+{"level":"info","message":"::1 - - [09/Jun/2026:17:08:14 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-09T17:08:14.677Z"}
+{"level":"info","message":"::1 - - [09/Jun/2026:17:08:23 +0000] \"GET /api HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-09T17:08:23.156Z"}

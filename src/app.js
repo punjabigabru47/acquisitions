@@ -1,4 +1,8 @@
 import logger from '#config/logger.js';
+import {
+  errorHandler,
+  notFoundHandler,
+} from '#middlewares/error.middleware.js';
 import securityMiddleware from '#middlewares/security.middleware.js';
 import authRoutes from '#routes/auth.routes.js';
 import usersRoutes from '#routes/users.routes.js';
@@ -62,11 +66,8 @@ app.get('/api', (req, res) => {
   });
 });
 
-// cheking route if they exist..
-app.use((req, res) => {
-  res.status(404).json({
-    error: 'Route not found',
-  });
-});
+// handle unknown routes and application errors.
+app.use(notFoundHandler);
+app.use(errorHandler);
 
 export default app;
